@@ -80,7 +80,7 @@ p:hover .header-text2, li:hover .nav-text2 ,p:hover .main-cont-text2, p:hover .m
 /* start main */
 
 .main-conts {
-    background-image: url(/media/inline.jpg);
+    background-image: url(./media/inline.jpg);
     background-attachment: fixed;
     background-position: 50% 0%;
     border-bottom: #db4c1c 3px solid;
