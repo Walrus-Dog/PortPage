@@ -1,0 +1,167 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* start header */
+
+.nav-bar {
+    background-color: #3c3c3c;
+    border-bottom: #db4c1c 3px solid;
+}
+
+p .header-text2, li .nav-text2, p .game-desc2 {
+    display: none;
+}
+
+p:hover .header-text1, li:hover .nav-text1, p:hover .game-desc1 {
+    display: none;
+}
+
+p:hover .header-text2, li:hover .nav-text2, p:hover .game-desc2 {
+    display: inline;
+}
+
+.nav-header a{
+    color: #b3c6d2;
+    font-family: 'Roboto Mono';
+    font-size: 40px;
+}
+
+.header-text2 a:hover {
+    background-color: #3c3c3c;
+    color: #db4c1c;
+    text-decoration: none;
+}
+
+.nav-text1 a{
+    color: #b3c6d2;
+    font-family: 'Roboto Mono';
+}
+
+.nav-text2 a{
+    color: #b3c6d2;
+}
+
+.nav-text2 a:hover {
+    background-color: #3c3c3c;
+    color: #db4c1c;
+    padding: 10%;
+    text-decoration: none;
+}
+
+.main-nav-list-item {
+    margin-top: 25px;
+}
+
+.game-nav a {
+    background-color: #3c3c3c;
+    color: #db4c1c;
+    padding: 10%;
+}
+
+/* end header */
+
+/* start main */
+
+.game-conts {
+    background-color: #252525;
+}
+
+.game-header {
+    border-bottom: #db4c1c solid 3px;
+    color: #b3c6d2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.game-desc {
+    color: #b3c6d2;
+}
+
+.game-div {
+    background-color: #2c2c2c;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+.game-div-last {
+    background-color: #2c2c2c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.game-span a{
+    color: #db4c1c;
+}
+
+.game-span a:hover {
+    color: #6e9ec0;
+    text-decoration: none;
+}
+
+/* end main */
+
+/* start footer */
+
+.colophon {
+    border-top: #db4c1c solid 3px;
+    background-image: url(https://flxt.tmsimg.com/assets/p19950075_p_v13_aa.jpg);
+    background-attachment: fixed;
+    background-position: 50% 9%;
+}
+
+.col-text {
+    color: #db4c1c;
+    margin-top: 2%;
+}
+
+.waldog a{
+    color: #b3c6d2;
+}
+
+.waldog a:hover {
+    color: #6e9ec0;
+    text-decoration: none;
+}
+
+.col-nav-item {
+    margin-top: 3%;
+}
+
+.col-nav-item a{
+    color: #db4c1c;
+    font-size: 20px;;
+}
+
+.col-nav-item a:hover {
+    color: #6e9ec0;
+}
+
+.bandai-span {
+    color: #db4c1c;
+}
+
+.bandai-span a{
+    color: #b3c6d2;
+}
+
+.bandai-span a:hover {
+    color: #6e9ec0;
+    text-decoration: none;
+}
+
+/* end footer */

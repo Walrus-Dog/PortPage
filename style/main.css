@@ -1,0 +1,48 @@
+/* 
+font-family: 'Lato', sans-serif; 
+font-family: 'Noto Serif JP', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto Mono', monospace
+*/
+
+body {
+    background-color: #242424;
+}
+
+.welcome1 a {
+    background-color: #353535;
+    border: 10px solid #3c3c3c;
+    color: #b3c6d2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.welcome2 a:hover {
+    background-color: #353535;
+    border: 10px solid #3c3c3c;
+    color: #db4c1c;
+    text-decoration: none;
+}
+
+h1 .welcome2 {
+    display: none; 
+}
+
+h1:hover .welcome1 { 
+    display: none; 
+    transition: ease 3s;
+}
+
+h1:hover .welcome2{ 
+    display: inline; 
+    transition: ease 3s;
+}
+
+.lander-vid{
+    position: relative;
+}
+
+.main-welcome {
+    position: absolute;
+    top: -600px;
+    left: 480px;
+}
